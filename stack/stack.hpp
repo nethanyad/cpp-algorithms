@@ -1,3 +1,14 @@
+/*
+---------------------------------------------------------
+Project:    Stack Data Structure
+Author:     Nethanya Dhaiphule
+Language:   C++
+Description:
+    Implements a stack from scratch with push, pop, and
+    peek operations. Demonstrates LIFO (Last-In, First-Out)
+    behavior using arrays/pointers and basic memory handling.
+---------------------------------------------------------
+*/
 #include <iostream>
 #include <stdexcept> // for std::runtime_error
 class stack
@@ -85,4 +96,5 @@ public:
         std::cout << "Number of elements: " << top + 1 << "\n";
         std::cout << "\n";
     }
+
 };
