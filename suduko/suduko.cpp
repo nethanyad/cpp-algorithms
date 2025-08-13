@@ -1,3 +1,15 @@
+/*
+---------------------------------------------------------
+Project:    Sudoku Solver
+Author:     Nethanya Dhaiphule
+Language:   C++
+Description:
+    Solves a given 9x9 Sudoku puzzle. Validates each 
+    move based on Sudoku rules for rows, columns, and 
+    3x3 subgrids.
+---------------------------------------------------------
+*/
+
 #include <iostream>
 
 class Sudoku
@@ -172,3 +184,4 @@ int main()
     }
     return 0;
 }
+
